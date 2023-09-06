@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>Clique aqui!</title>
+    
+    <!-- Descrição da página -->
+    <meta name="description" content="Uma breve descrição do seu site ou página. Isso deve ser informativo e atrativo para os usuários.">
+    
+    <!-- Palavras-chave relevantes -->
+    <meta name="keywords" content="palavra-chave 1, palavra-chave 2, palavra-chave 3">
+    
+    <!-- Autor do conteúdo -->
+    <meta name="author" content="Seu Nome ou Nome da Empresa">
+    
+    <!-- Tags Open Graph para compartilhamento em redes sociais (opcional) -->
+    <meta property="og:title" content="Título para compartilhamento em redes sociais">
+    <meta property="og:description" content="Descrição para compartilhamento em redes sociais">
+    <meta property="og:image" content="URL da imagem para compartilhamento em redes sociais">
+    <meta property="og:url" content="URL da página">
+    
+    <!-- Tags Twitter Card para compartilhamento no Twitter (opcional) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Título para compartilhamento no Twitter">
+    <meta name="twitter:description" content="Descrição para compartilhamento no Twitter">
+    <meta name="twitter:image" content="URL da imagem para compartilhamento no Twitter">
+    
+    <!-- CSS e outros recursos relacionados -->
+    <link rel="stylesheet" href="seu-estilo.css">
+    
+    <!-- Favicon (ícone da aba do navegador) -->
+    <link rel="icon" href="./img/like.png">
+    
+    <!-- Estilos CSS adicionais -->
+    <style>
+        /* Estilizando o botão e adicionando animação */
+        button {
+            background-color: #4CAF50;
+            /* Verde */
+            color: #000;
+            /* Preto */
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            /* Borda arredondada */
+            cursor: pointer;
+            font-family: "Comic Sans MS", cursive;
+            margin-bottom: 20px; /* Espaço abaixo do botão */
+            animation: blink 1s infinite; /* Animação de piscar */
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% {
+                background-color: #4CAF50; /* Cor original */
+            }
+            25%, 75% {
+                background-color: #008000; /* Cor alterada durante a animação */
+            }
+        }
+
+        /* Estilizando a seta */
+        .seta {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        /* Estilizando o texto dentro do botão */
+        .botao-texto {
+            font-size: 24px;
+        }
+
+        /* Estilizando as tags <p> e aplicando a fonte em toda a página */
+        p, body {
+            font-family: "Comic Sans MS", cursive;
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333; /* Cor de texto cinza escuro */
+        }
+
+        /* Estilizando a classe "flex" */
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Mover o conteúdo para o topo */
+            height: 100vh;
+            flex-direction: column; /* Alinhar o conteúdo na vertical */
+        }
+
+        /* Centralizando o botão horizontalmente */
+        .flex button {
+            align-self: center;
+        }
+
+        /* Estilizando a classe "rodape" e ajustando a margem superior */
+        .rodape {
+            text-align: center;
+            color: #333; /* Cor de texto cinza escuro */
+            margin-top: 10px; /* Espaço mais próximo do botão */
+        }
+
+        /* Estilizando os links no rodapé */
+        .rodape a {
+            text-decoration: none;
+            color: #333; /* Cor de texto cinza escuro */
+            margin: 0 5px;
+        }
+
+        /* Estilizando a classe "disclaimer" e ajustando a cor do texto */
+        .disclaimer {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px; /* Espaço abaixo do disclaimer */
+            color: #333; /* Cor de texto cinza escuro */
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão verde no meio da página com seta -->
+    <div class="flex">
+        <button onclick="window.location.href = '#';"><span class="seta">»</span> <span class="botao-texto">Clique aqui e vá para o site de destino!</span></button>
+    </div>
+    <div class="rodape">
+        <div class="disclaimer">
+            <p>Embora os resultados deste serviço tenham sido demonstrados e confirmados pelos nossos alunos, é crucial ressaltar que os resultados podem variar significativamente entre indivíduos, dependendo de fatores pessoais. As informações fornecidas neste site têm o propósito de oferecer conhecimento geral, sem garantir resultados específicos ou um prazo exato para sua obtenção. Qualquer resultado obtido será de total responsabilidade do cliente, e este produto/página não possui qualquer afiliação com o Tik Tok ADS.</p>
+        </div>
+        <a href="#" style="color: black;">Política de Privacidade</a> —
+        <a href="#" style="color: black;">Termos de Uso</a> —
+        <a href="#" style="color: black;">Aviso Legal</a>
+        <p style="color: #333;">Atendimento através: contato@maisafiliados.com.br</p>
+        <p style="color: #333;">CNPJ: 28.011.950/0001-30 // ©️ 2023 - Mais Afiliado. Todos os direitos reservados</p>
+    </div>
+</body>
+</html>
